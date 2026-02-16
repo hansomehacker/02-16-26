@@ -13,8 +13,8 @@ st.write("Check titles")
 book = st.text_input("Book Title: ")
 
 if st.button("Check Book"):
-  if book.strip() = "":
-  st.warning("Please enter a book!!!")
+  if book.strip() == "":
+    st.warning("Please enter a book!!!")
   elif book in books:
     st.success("I found one")
 else:
